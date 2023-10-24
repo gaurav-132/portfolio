@@ -4,12 +4,10 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faFireFlameCurved, faHouse, faCode, faVideo} from '@fortawesome/free-solid-svg-icons';
 
-
 library.add(fab);
 
 
-const LeftContainer = () => {
-
+const Sidebar = () => {
     const sideBarData = [
         { title: 'Home', icon: faHouse },
         { title: 'Trending', icon: faFireFlameCurved },
@@ -26,16 +24,16 @@ const LeftContainer = () => {
     ];
 
     return (
-        <div className='h-[85vh] text-textPrimary rounded-md scrollbar-custom  overflow-y-scroll'>
-            <div className='mt-4'>
+        <div className='flex relative flex-col h-full  bg-card text-textPrimary rounded-lg w-full overflow-y-auto pb-20 md:pb-5'>
+            <div className=''>
                 {
                     sideBarData.map((data, index) => {
                         return(
                             <div className='px-10 py-1 mt-5 cursor-pointer'>
-                                <a className='flex align-middle mt-3 gap-4'>
+                                <a className='flex align-middle mt-2 gap-4'>
                                     <FontAwesomeIcon icon={data.icon} size='lg' className='text-[#ccc]'>
                                     </FontAwesomeIcon>
-                                    <span className='inline-block'>{data.title}</span>
+                                    <span className='inline-block text-md font-medium'>{data.title}</span>
                                 </a>
                             </div>
                         )
@@ -43,16 +41,16 @@ const LeftContainer = () => {
                 }
             </div>
 
-            <div className='mt-4'>
+            <div className='mt-5'>
                 <h4 className='text-textPrimary font-medium text-start ps-6'>Socials</h4>
             </div>
             
-            <div className='mb-4'>
+            <div className=''>
                 {socialData.map((item, index) => (
                     <div className='px-10 py-1 mt-5 cursor-pointer' key={index}>
-                        <a className='flex align-middle mt-3 gap-4'>
+                        <a className='flex align-middle mt-2 gap-4'>
                             <FontAwesomeIcon icon={item.icon} size='lg' style={{color: item.stroke}} className='text-[{data.stroke}]' />
-                            <span className='inline-block'>{item.title}</span>
+                            <span className='inline-block text-md font-medium'>{item.title}</span>
                         </a>
                     </div>
                 ))}
@@ -61,4 +59,4 @@ const LeftContainer = () => {
     )
 }
 
-export default LeftContainer;
+export default Sidebar;

@@ -10,7 +10,8 @@ module.exports = {
         primary: '#14131a',
         highlight: '#2bd576',
         card: '#1c1b23',
-        textPrimary: '#8b8a91'
+        textPrimary: '#8b8a91',
+        textInfo: '#4f4f52'
       },
       fontFamily: {
         sans: ['Helvetica', 'Arial', 'sans-serif'], // Define a custom font family
