@@ -10,7 +10,7 @@ library.add(fab);
 
 const ProgressiveCard = ({project}) => {
   return (
-    <div className='flex flex-col gap-3 rounded-md '>
+    <div className='flex flex-col gap-3 rounded-md cursor-pointer'>
         <a>
             <div className='aspect-video relative  rounded-lg overflow-hidden'>
                 <img src={project.img} className='h-full top-0 left-0 right-0 bottom-0'/>
