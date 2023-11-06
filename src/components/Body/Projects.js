@@ -11,7 +11,7 @@ const Projects = ({projects, heading}) => {
             {
                 projects.map((item) => {
                     return(
-                        <Card title={item.title} desc={item.desc} img={item.img}/>
+                        <Card title={item.title} desc={item.desc} img={item.img} href={item.href}/>
                     )
                 })
             }

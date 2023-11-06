@@ -13,10 +13,10 @@ const RightContainer = () => {
     const image = 'https://ez-snippet.vercel.app/images/cover.jpeg';
 
     const projects = [
-        {title: "Discord Clone", desc:"Next.js 13, React Hook Form, Zustand, Shadcn, Typescript", img:"https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fdiscord-clone.jpeg&w=1920&q=75"},
-        {title: "Spotify Clone", desc:"Next.js 13, React Hook Form, Zustand, Radix UI, Typescript, Tailwind CSS", img:"https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fspotify-clone.gif&w=1920&q=75"},
-        {title: "Amazon Clone", desc:"NodeJs, Express, Mongoose, Next.js 13, Next Auth, React Hook Form, Typescript, Tailwind CSS", img:"https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Famazon-clone.jpeg&w=1920&q=75"},
-        {title: "Dalle Clone", desc:"OpenAI, Nodejs, Express, Mongoose, ReactJS, Tailwind CSS", img:"https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fdalle-clone.webp&w=1920&q=75"},
+        {title: "Discord Clone", desc:"Next.js 13, React Hook Form, Zustand, Shadcn, Typescript", img:"https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fdiscord-clone.jpeg&w=1920&q=75",href:'/'},
+        {title: "Spotify Clone", desc:"Next.js 13, React Hook Form, Zustand, Radix UI, Typescript, Tailwind CSS", img:"https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fspotify-clone.gif&w=1920&q=75", href:"https://github.com/gaurav-132/spotify"},
+        {title: "Amazon Clone", desc:"NodeJs, Express, Mongoose, Next.js 13, Next Auth, React Hook Form, Typescript, Tailwind CSS", img:"https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Famazon-clone.jpeg&w=1920&q=75",href:'/'},
+        {title: "Dalle Clone", desc:"OpenAI, Nodejs, Express, Mongoose, ReactJS, Tailwind CSS", img:"https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fdalle-clone.webp&w=1920&q=75", href:'/'},
     ];
 
     const web3Projects = [
@@ -36,7 +36,7 @@ const RightContainer = () => {
                 </div>
                 <div className='flex md:flex-1 justify-between items-center gap-4'>
                     <div className='text-3xl text-white'>
-                        Gaurav Gusain
+                        Programming Hub
                     </div>
                     <div>
                     <a className='bg-primary cursor-pointer text-textPrimary px-2 py-2 rounded-md'>
