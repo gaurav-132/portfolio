@@ -15,3 +15,23 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #100f0f; /* Change the background color to a darker shade on hover */
 }/*# sourceMappingURL=App.css.map */
+
+@media (max-width: 720px) {
+  .img-resp{
+    width: 80px;
+  }
+
+  .title-resp{
+    font-size: 24px;
+  }
+
+  .resp-insta{
+    display: none;
+  }
+
+  .resp-main{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0px 4px; */
+  }
+}
