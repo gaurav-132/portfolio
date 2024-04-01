@@ -16,7 +16,7 @@ const RightContainer = () => {
         {title: "Discord Clone", desc:"Next.js 13, React Hook Form, Zustand, Shadcn, Typescript", img:"https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fdiscord-clone.jpeg&w=1920&q=75",href:'/'},
         {title: "Spotify Clone", desc:"Next.js 13, React Hook Form, Zustand, Radix UI, Typescript, Tailwind CSS", img:"https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fspotify-clone.gif&w=1920&q=75", href:"https://github.com/gaurav-132/spotify"},
         {title: "Amazon Clone", desc:"NodeJs, Express, Mongoose, Next.js 13, Next Auth, React Hook Form, Typescript, Tailwind CSS", img:"https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Famazon-clone.jpeg&w=1920&q=75",href:'/'},
-        {title: "NetflixGPT", desc:"ReactJS, Firebase, Tailwind CSS", img:"https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fdalle-clone.webp&w=1920&q=75", href:'https://netflix-six-ebon.vercel.app/browse'},
+        {title: "NetflixGPT", desc:"ReactJS, Firebase, Tailwind CSS", img:"https://images.ctfassets.net/y2ske730sjqp/5QQ9SVIdc1tmkqrtFnG9U1/de758bba0f65dcc1c6bc1f31f161003d/BrandAssets_Logos_02-NSymbol.jpg?w=940", href:'https://netflix-six-ebon.vercel.app/browse'},
     ];
 
     const web3Projects = [
