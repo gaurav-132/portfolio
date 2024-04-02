@@ -17,11 +17,11 @@ const Sidebar = () => {
     ];
 
     const socialData = [
-        { title: "Instagram", icon: ["fab", "instagram"], stroke:'rgb(181, 23, 158)', link:"https://www.instagram.com/_programminghub" },
-        { title: "Github", icon: ["fab", "github"], stroke:'rgb(42, 157, 143)' },
+        { title: "Instagram", icon: ["fab", "instagram"], stroke:'rgb(181, 23, 158)', link:"https://www.instagram.com/heisgrv" },
+        { title: "Github", icon: ["fab", "github"], stroke:'rgb(42, 157, 143)', link:"https://github.com/gaurav-132" },
         { title: "Youtube", icon: ["fab", "youtube"], stroke: 'rgb(230, 57, 70)' },
         { title: "Stack Overflow", icon: ["fab", "stack-overflow"], stroke:'rgb(247, 127, 0)' },
-        { title: "Linked In", icon: ["fab", "linkedin"], stroke: 'rgb(2, 119, 181)'},
+        { title: "Linked In", icon: ["fab", "linkedin"], stroke: 'rgb(2, 119, 181)', link:"https://www.linkedin.com/in/gaurav-gusain-038b1b223/"},
     ];
 
     return (
