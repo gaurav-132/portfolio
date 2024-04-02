@@ -39,7 +39,7 @@ const RightContainer = () => {
                         Programming Hub
                     </div>
                     <div className=' resp-insta'>
-                        <a className='bg-primary cursor-pointer text-textPrimary px-2 py-2 rounded-md'>
+                        <a href='https://www.instagram.com/heisgrv' target='_blank' className='bg-primary cursor-pointer text-textPrimary px-2 py-2 rounded-md'>
                             <FontAwesomeIcon icon={["fab", "instagram"]} size='lg'/>
                             <span className='px-2'>Follow me on Instagram</span>
                         </a>
