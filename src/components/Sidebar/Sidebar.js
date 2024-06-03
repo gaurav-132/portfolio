@@ -19,8 +19,8 @@ const Sidebar = () => {
     const socialData = [
         { title: "Instagram", icon: ["fab", "instagram"], stroke:'rgb(181, 23, 158)', link:"https://www.instagram.com/heisgrv" },
         { title: "Github", icon: ["fab", "github"], stroke:'rgb(42, 157, 143)', link:"https://github.com/gaurav-132" },
-        { title: "Youtube", icon: ["fab", "youtube"], stroke: 'rgb(230, 57, 70)' },
-        { title: "Stack Overflow", icon: ["fab", "stack-overflow"], stroke:'rgb(247, 127, 0)' },
+        { title: "LeetCode", icon: faCode, stroke: 'rgb(230, 57, 70)', link:"https://leetcode.com/u/gaurav-132/" },
+        { title: "Twitter", icon: ["fab", "x-twitter"], stroke:'rgb(231, 233, 234)', link:"https://x.com/Gau_ravv__" },
         { title: "Linked In", icon: ["fab", "linkedin"], stroke: 'rgb(2, 119, 181)', link:"https://www.linkedin.com/in/gaurav-gusain-038b1b223/"},
     ];
 
